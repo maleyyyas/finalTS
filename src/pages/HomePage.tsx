@@ -50,7 +50,7 @@ export default function HomePage() {
       </div>
          <select className="mt-5" onChange={(e) => setCategory(e.target.value)}>
             <option disabled selected>
-              категории
+              Категории
            </option>
             <option value="">Все</option>
             <option value="/category/women's clothing">Женская одежда</option>

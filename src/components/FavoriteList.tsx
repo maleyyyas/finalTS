@@ -64,8 +64,8 @@ const handleFilters = (e: React.SyntheticEvent) => {
                  <div className="d-flex flex-column m-5">
               <p>Сортировать по цене:</p>
          <select onChange={(e) => setSort(e.target.value)}>
-            <option value="asc">(увл)</option>
-            <option value="desc">(умен)</option>
+            <option value="asc">(Увеличению)</option>
+            <option value="desc">(Уменьшению)</option>
                          </select>
             </div>
             </div>
